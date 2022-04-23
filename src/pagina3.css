@@ -1,0 +1,70 @@
+.cbp-qtcontent.col-md-12 {
+  padding: 0;
+}
+
+.grayscale {
+  height: 140px;
+  margin: 0 10px;
+  z-index: 1;
+  filter: grayscale(80%);
+  -webkit-filter: grayscale(80%);
+  -moz-filter: grayscale(80%);
+  -ms-filter: grayscale(80%);
+  -o-filter: grayscale(80%);
+}
+@media (max-width: 500px) {
+  .cbp-qtcontent img.grayscale {
+    height: 100px;
+  }
+}
+
+#myProgress #myBar {
+  transition: width 59ms linear;
+}
+
+#categoriasClientes button.btnCatClient {
+  display: inline-block;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333;
+  background: #e2e2e2;
+  margin: 5px;
+}
+
+#categoriasClientes button.btnCatClient.seleccionado {
+  background: #797979;
+  color: white;
+}
+
+#categoriasClientes button.btnCatClient:hover {
+  opacity: 0.7;
+}
+
+.cbp-qtcontent {
+  margin-bottom: 30px;
+}
+#myProgress {
+  margin-bottom: 25px;
+}
+.pos-client {
+  position: relative;
+}
+.pos-client div {
+  min-width: 12px;
+  max-width: 40px;
+}
